@@ -5,7 +5,7 @@
     "license": "MIT",
     "sideEffects": false,
     "scripts": {
-        "build": "npm run build:css:default && npm run build:css:dark && npm run build:css:rainbow && remix build",
+        "build": "npm run build:css:default && npm run build:css:dark && npm run build:css:rainbow && remix build && remix export",
         "build:css:default": "tailwindcss -c src/styles/tailwind/default.js -m -i ./src/styles/index.css -o ./src/styles/tailwind.default.css",
         "build:css:dark": "tailwindcss -c src/styles/tailwind/dark.js -m -i ./src/styles/index.css -o ./src/styles/tailwind.dark.css",
         "build:css:rainbow": "tailwindcss -c src/styles/tailwind/dark.js -m -i ./src/styles/index.css -o ./src/styles/tailwind.rainbow.css",
