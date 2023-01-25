@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../src/ui/pages/LandingPage.js"],
+  "sourcesContent": ["export default () => {\n    return (\n        <div className=\"flex mx-48 my-4 \">\n            <div class=\"flex-none w-1/2 h-14 bg-green-500\">\n                <img src=\"./images/\" alt=\"\" />\n            </div>\n            <div class=\"flex-initial w-1/2 h-14\">02</div>\n        </div>\n    );\n};\n"],
+  "mappings": ";;;;;;;;AAIgB;AAJhB,IAAO,sBAAQ,MAAM;AACjB,SACI,mDAAC,SAAI,WAAU,oBACX;AAAA,uDAAC,SAAI,OAAM,qCACP,6DAAC,SAAI,KAAI,aAAY,KAAI,MAAzB;AAAA;AAAA;AAAA;AAAA,WAA4B,KADhC;AAAA;AAAA;AAAA;AAAA,WAEA;AAAA,IACA,mDAAC,SAAI,OAAM,2BAA0B,kBAArC;AAAA;AAAA;AAAA;AAAA,WAAuC;AAAA,OAJ3C;AAAA;AAAA;AAAA;AAAA,SAKA;AAER;",
+  "names": []
+}

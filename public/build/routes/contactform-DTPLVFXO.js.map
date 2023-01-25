@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../src/routes/contactform.tsx"],
+  "sourcesContent": ["import React from 'react'\n\nconst contactform = () => {\n  return (\n    <div>\n      \n    </div>\n  )\n}\n\nexport default contactform\n"],
+  "mappings": ";;;;;;;;AAII;AAFJ,IAAM,cAAc,MAAM;AACxB,SACE,mDAAC,WAAD;AAAA;AAAA;AAAA;AAAA,SAEA;AAEJ;AAEA,IAAO,sBAAQ;",
+  "names": []
+}

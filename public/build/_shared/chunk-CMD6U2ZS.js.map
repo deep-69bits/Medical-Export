@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../src/ui/pages/LandingPage.js"],
+  "sourcesContent": ["import logo from './m-2.jpeg'; // Tell webpack this JS file uses this image\n\nexport default () => {\n    return (\n        <>\n            <img className=\"float-left h-20 m-5\" src={logo} />\n            <p>\n                Lorem ipsum dolor sit amet consectetur adipisicing elit. A commodi nesciunt delectus perspiciatis nobis\n                cum quam consequuntur, quaerat, accusantium architecto magnam quisquam! Ex ullam optio eveniet dolor\n                praesentium tempore quam nesciunt architecto quae ipsum? Corrupti, veniam fuga eligendi optio eius\n                voluptatem pariatur sunt. Possimus beatae facilis autem dicta, dignissimos aut commodi temporibus odit\n                voluptate quia eveniet adipisci necessitatibus expedita sapiente officia reiciendis. Est, nisi facilis?\n                Nostrum repudiandae quas magnam beatae, adipisci qui expedita enim incidunt sit aut quisquam error\n                minima sed praesentium veritatis pariatur libero natus similique fuga dolores consequuntur ipsa iusto!\n                Harum deleniti laudantium totam, sunt autem molestiae voluptatum!\n            </p>\n        </>\n    );\n};\n"],
+  "mappings": ";;;;;;;;;;;AAIQ;AAFR,IAAO,sBAAQ,MAAM;AACjB,SACI,sFACI;AAAA,uDAAC,SAAI,WAAU,uBAAsB,KAAK,eAA1C;AAAA;AAAA;AAAA;AAAA,WAAgD;AAAA,IAChD,mDAAC,OAAE,0xBAAH;AAAA;AAAA;AAAA;AAAA,WASA;AAAA,OAXJ;AAAA;AAAA;AAAA;AAAA,SAYA;AAER;",
+  "names": []
+}

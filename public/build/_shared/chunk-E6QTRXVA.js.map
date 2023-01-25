@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../src/ui/bridge/Link.tsx"],
+  "sourcesContent": ["import { Link } from '@remix-run/react';\n\nexport default (props: any & { children: React.ReactNode }) => {\n    return <Link {...props}>{props.children}</Link>;\n};\n"],
+  "mappings": ";;;;;;;;;;;AAGW;AADX,IAAO,eAAQ,CAAC,UAA+C;AAC3D,SAAO,mDAAC,QAAM,GAAG,OAAQ,gBAAM,YAAxB;AAAA;AAAA;AAAA;AAAA,SAAiC;AAC5C;",
+  "names": []
+}

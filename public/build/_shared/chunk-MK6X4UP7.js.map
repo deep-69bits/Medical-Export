@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../src/ui/pages/LandingPage.js"],
+  "sourcesContent": ["\n\nexport default () => {\n    \n    return (\n        <div className=\"min-h-[100vh]\">\n           \n        </div>\n    );\n};\n"],
+  "mappings": ";;;;;;;;AAKQ;AAHR,IAAO,sBAAQ,MAAM;AAEjB,SACI,mDAAC,SAAI,WAAU,mBAAf;AAAA;AAAA;AAAA;AAAA,SAEA;AAER;",
+  "names": []
+}

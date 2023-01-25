@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../src/ui/pages/LandingPage.tsx"],
+  "sourcesContent": ["import { HeadersFunction, json, LinksFunction, LoaderFunction, MetaFunction } from '@remix-run/node';\nimport { useLoaderData } from '@remix-run/react';\nimport dataFetcherForShapePage from '~/core/dataFetcherForShapePage.server';\nimport splideStyles from '@splidejs/splide/dist/css/themes/splide-default.min.css';\nimport { HttpCacheHeaderTaggerFromLoader, StoreFrontAwaretHttpCacheHeaderTagger } from '~/use-cases/http/cache';\nimport { getStoreFront } from '~/core/storefront.server';\nimport { CrystallizeAPI } from '~/use-cases/crystallize/read';\nimport { buildMetas } from '~/use-cases/MicrodataBuilder';\nimport { getContext } from '~/use-cases/http/utils';\n\n\nexport const loader: LoaderFunction = async ({ request, params }) => {\n   return json({'hello':\"hello word\"})\n};\n\nexport default () => {\n    const { hello} = useLoaderData();\n    console.log('njsfnsjbfjasbfafa',data)\n    return <div>yo</div>;\n};\n"],
+  "mappings": ";;;;;;;;;AAkBW;AAHX,IAAO,sBAAQ,MAAM;AACjB,QAAM,EAAE,MAAK,IAAI,cAAc;AAC/B,UAAQ,IAAI,qBAAoB,IAAI;AACpC,SAAO,mDAAC,SAAI,kBAAL;AAAA;AAAA;AAAA;AAAA,SAAO;AAClB;",
+  "names": []
+}

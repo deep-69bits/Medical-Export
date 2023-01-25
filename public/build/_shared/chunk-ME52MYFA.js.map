@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../src/ui/bridge/useSearchParams.ts"],
+  "sourcesContent": ["import { useSearchParams } from '@remix-run/react';\n\nexport default () => {\n    return useSearchParams();\n};\n"],
+  "mappings": ";;;;;AAEA,IAAO,0BAAQ,MAAM;AACjB,SAAO,gBAAgB;AAC3B;",
+  "names": []
+}

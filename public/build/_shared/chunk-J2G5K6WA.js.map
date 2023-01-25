@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../src/ui/pages/LandingPage.js"],
+  "sourcesContent": ["import logo from './m-2.jpeg'; // Tell webpack this JS file uses this image\n\nexport default () => {\n    return (\n        <>\n            <img class=\"float-left \" src={\"path/to/image.jpg\"} />\n            <p>Maybe we can live without libraries, people like you and me. ...</p>\n        </>\n    );\n};\n"],
+  "mappings": ";;;;;;;;AAIQ;AAFR,IAAO,sBAAQ,MAAM;AACjB,SACI,sFACI;AAAA,uDAAC,SAAI,OAAM,eAAc,KAAK,uBAA9B;AAAA;AAAA;AAAA;AAAA,WAAmD;AAAA,IACnD,mDAAC,OAAE,gFAAH;AAAA;AAAA;AAAA;AAAA,WAAmE;AAAA,OAFvE;AAAA;AAAA;AAAA;AAAA,SAGA;AAER;",
+  "names": []
+}

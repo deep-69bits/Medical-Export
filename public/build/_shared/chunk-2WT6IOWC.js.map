@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../src/ui/pages/LandingPage.tsx"],
+  "sourcesContent": ["import { Grid } from '../components/grid/grid';\nimport { LandingPage } from '~/use-cases/contracts/LandingPage';\nimport { useLoaderData } from 'react-router';\nimport { HeadersFunction, json, LoaderFunction, MetaFunction, Response } from '@remix-run/node';\n\n\nexport const loader: LoaderFunction= async()=>{\n\n}\n\n\n\nexport default ({ data: landing }: { data: LandingPage }) => {\n    return (\n        <div className=\"min-h-[100vh]\">\n            {landing?.grids?.map((grid, index) => (\n                <div key={`${grid.id}-${index}`} className=\"mx-auto w-full test\">\n                    <Grid grid={grid} />\n                </div>\n            ))}\n           yo\n        </div>\n    );\n};\n"],
+  "mappings": ";;;;;;;;;;;AAiBoB;AALpB,IAAO,sBAAQ,CAAC,EAAE,MAAM,QAAQ,MAA6B;AAZ7D;AAaI,SACI,mDAAC,SAAI,WAAU,iBACV;AAAA,6CAAS,UAAT,mBAAgB,IAAI,CAAC,MAAM,UACxB,mDAAC,SAAgC,WAAU,uBACvC,6DAAC,QAAK,QAAN;AAAA;AAAA;AAAA;AAAA,WAAkB,KADZ,GAAG,KAAK,MAAM,SAAxB;AAAA;AAAA;AAAA;AAAA,WAEA;AAAA,IACD;AAAA,OALP;AAAA;AAAA;AAAA;AAAA,SAOA;AAER;",
+  "names": []
+}

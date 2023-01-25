@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../src/ui/bridge/useNavigate.ts"],
+  "sourcesContent": ["import { useNavigate } from '@remix-run/react';\n\nexport default () => {\n    return useNavigate();\n};\n"],
+  "mappings": ";;;;;AAEA,IAAO,sBAAQ,MAAM;AACjB,SAAO,YAAY;AACvB;",
+  "names": []
+}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../src/ui/bridge/useLocation.ts"],
+  "sourcesContent": ["import { useLocation } from '@remix-run/react';\n\nexport default () => {\n    return useLocation();\n};\n"],
+  "mappings": ";;;;;AAEA,IAAO,sBAAQ,MAAM;AACjB,SAAO,YAAY;AACvB;",
+  "names": []
+}

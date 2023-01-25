@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../src/ui/pages/LandingPage.tsx"],
+  "sourcesContent": ["import { Grid } from '../components/grid/grid';\nimport { LandingPage } from '~/use-cases/contracts/LandingPage';\n\n\nexport default ({ data: landing }: { data: LandingPage }) => {\n\n    return (\n        <div className=\"min-h-[100vh]\">\n            {landing?.grids?.map((grid, index) => (\n                <div key={`${grid.id}-${index}`} className=\"mx-auto w-full test\">\n                    <Grid grid={grid} />\n                </div>\n            ))}\n           \n        </div>\n    );\n};\n"],
+  "mappings": ";;;;;;;;;;;AAUoB;AANpB,IAAO,sBAAQ,CAAC,EAAE,MAAM,QAAQ,MAA6B;AAJ7D;AAMI,SACI,mDAAC,SAAI,WAAU,iBACV,mDAAS,UAAT,mBAAgB,IAAI,CAAC,MAAM,UACxB,mDAAC,SAAgC,WAAU,uBACvC,6DAAC,QAAK,QAAN;AAAA;AAAA;AAAA;AAAA,SAAkB,KADZ,GAAG,KAAK,MAAM,SAAxB;AAAA;AAAA;AAAA;AAAA,SAEA,MAJR;AAAA;AAAA;AAAA;AAAA,SAOA;AAER;",
+  "names": []
+}
