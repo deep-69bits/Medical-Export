@@ -15,6 +15,8 @@ jobs:
     runs-on: ubuntu-latest
     name: Build and Deploy Job
     steps:
+      - name: Move placeholder.html
+        run: mv ./public/placeholder.html ./public/index.html
       - uses: actions/checkout@v3
         with:
           submodules: true
