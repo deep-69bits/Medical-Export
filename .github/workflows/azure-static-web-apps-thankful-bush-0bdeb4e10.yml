@@ -16,7 +16,7 @@ jobs:
     name: Build and Deploy Job
     steps:
       - name: Move placeholder.html
-        run: mv ./public/placeholder.html ./public/index.html
+        run: mv /placeholder.html /public/build/index.html
       - uses: actions/checkout@v3
         with:
           submodules: true
